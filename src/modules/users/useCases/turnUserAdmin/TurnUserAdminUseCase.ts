@@ -16,6 +16,7 @@ class TurnUserAdminUseCase {
     }
 
     user.admin = true;
+    user.updated_at = new Date();
 
     return user;
   }
